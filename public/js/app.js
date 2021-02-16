@@ -66159,6 +66159,7 @@ var Korisnik = /*#__PURE__*/function (_Component) {
   _createClass(Korisnik, [{
     key: "delete",
     value: function _delete() {
+      axios["delete"](this.url + "korisnici/delete?id_korisnik=" + this.state.korisnik.id);
       this.props["delete"](this.state.korisnik);
     }
   }, {

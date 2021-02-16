@@ -11,6 +11,9 @@ export default class Korisnik extends Component {
         this.url = "http://127.0.0.1:8000/";
     }
     delete() {
+        axios.delete(
+            this.url + "korisnici/delete?id_korisnik=" + this.state.korisnik.id
+        );
         this.props.delete(this.state.korisnik);
     }
 

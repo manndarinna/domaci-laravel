@@ -15,7 +15,7 @@ Route::get('/', 'PageController@pocetna');
 Route::get('/termini', 'PageController@termini');
 Route::get('/korisnici', 'PageController@korisnici');
 
-Route::get('/korisnici/delete', 'KorisnikController@izbrisiKorisnika');
+Route::delete('/korisnici/delete', 'KorisnikController@izbrisiKorisnika');
 Route::get('/korisnici/get', 'KorisnikController@getKorisnici');
 
 Route::get('/termini/get', 'TerminController@getTermine');
