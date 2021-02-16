@@ -1,0 +1,16 @@
+.backgroundImage {
+    background: url(../image/background.jpg);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#pocetna {
+    position: relative;
+    height: 90vh;
+}
+#titleContainer {
+    background: rgba(255, 0, 0, 0.53);
+    border-radius: 20px;
+    padding: 3px;
+}
